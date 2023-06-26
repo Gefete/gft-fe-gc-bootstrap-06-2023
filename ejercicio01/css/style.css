@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    background-color: #2b3b3b;
+}
+
+form{
+    background-color: #e1e1e1;
+}
+.container_login{
+    background-color: #ffffff;
+}
+.text_info{
+    color: #ffffff;
+}
