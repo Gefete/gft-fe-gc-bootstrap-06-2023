@@ -5,9 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Menu</title>
+    <script src="https://kit.fontawesome.com/8de94d315f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="co"></div>
+        <div class="container-fluid mt-2" >
+            <div class="d-flex flex-column flex-sm-row justify-content-between rounded-top color_upmenu">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="m-1 mx-3 h-25  ">+34 1234567899</div>
+                    <div class="m-1 mx-3 h-25  ">name@gmail.com</div>
+                    <div class="m-1 mx-3 h-25  ">123 Street CH city</div>
+                </div>
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="m-1 mx-3 h-25 ">Sign Up</div>
+                    <div class="m-1 mx-3 h-25 ">Login</div>
+                </div>
+            </div>
+       
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid d-block p-0 ">
+                
+                <div class="d-flex flex-sm-row rounded-bottom color_downmenu">
+                    <a class="navbar-brand mx-2" href="#">themes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item px-2 color_selected ">
+                                <a class="nav-link color_selected" href="#"><i class="fa-solid fa-bars"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active color_selected" aria-current="page" href="#"><i class="fa-sharp fa-solid fa-house  mx-1"></i>Home</a>
+                            </li>
+                            <li class="nav-item color_selected">
+                                <a class="nav-link color_selected" href="#"><i class="fa-sharp fa-solid fa-envelope  mx-1"></i>About</a>
+                            </li>
+                            <li class="nav-item dropdown color_selected">
+                                <a class="nav-link color_selected dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-gear mx-1"></i>Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-film"></i>Watching new movies</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-music"></i>Listening music</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gamepad"></i>Play new games</a><!-- dropdown-toggle --><!-- role="button" data-bs-toggle="dropdown" aria-expanded="false" -->
+                                        <!-- <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-book"></i>Learn new design</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item color_selected">
+                                <a class="nav-link color_selected" href="#"><i class="fa-solid fa-graduation-cap"></i>Portfolio</a>
+                            </li>
+                            <li class="nav-item color_selected">
+                                <a class="nav-link color_selected" href="#"><i class="fa-sharp fa-solid fa-paper-plane  mx-1"></i>Contact</a>
+                            </li>
+                            <li class="nav-item color_selected">
+                                <a class="nav-link color_selected" href="#">Mega</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex align-items-center" role="search">
+                            <div class="input-group">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-secondary color_upmenu" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <button class="btn " type="submit"><i class="fa-brands fa-square-facebook"></i></button>
+                        <button class="btn " type="submit"><i class="fa-brands fa-square-twitter"></i></button>
+                        <button class="btn " type="submit"><i class="fa-brands fa-square-google-plus"></i></button>
+                        <button class="btn " type="submit"><i class="fa-brands fa-square-youtube"></i></button>
+                        <button class="btn " type="submit"><i class="fa-solid fa-user"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
 </body>
-</html>
+</html> 
